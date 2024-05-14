@@ -13,6 +13,11 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
+/*-----------------------------------------------------------------------------------*/
+/* Include dependant files
+/*-----------------------------------------------------------------------------------*/
+
+include_once('inc/function_postTypes.php');
 
 define( 'HELLO_ELEMENTOR_CHILD_VERSION', '2.0.0' );
 

@@ -27,4 +27,4 @@ function conference_register_post_types() {
         )
     );
 }
-add_action( 'init', 'skon_register_post_types' );
+add_action( 'init', 'conference_register_post_types' );
